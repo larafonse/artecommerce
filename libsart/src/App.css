@@ -45,11 +45,12 @@
 }
 body{
   font-family: 'Oswald', sans-serif !important;
-  background: white !important;
-  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png") !important;
+  background: rgb(255, 253, 247) !important;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png") !important;
 }
 .text-title{
-  font-family: 'MuseoModerno', cursive !important;
+  font-family: 'Dancing Script', cursive !important;
+  font-weight: 700 !important;
   letter-spacing: .03rem;
   text-transform: uppercase;
 }

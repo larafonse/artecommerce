@@ -9,7 +9,7 @@ export default class Navbar extends Component{
         return(
             <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5'>
             <Link to = '/'>
-                <img src = {logo} alt="store" className='navbar-brand' height='70px'/>
+                <h1 className='text-title'>LAJ</h1>
             </Link>
             <ul className="navbar-nav align-items-center">
                 <li className='nav-item ml-5'>
@@ -31,9 +31,9 @@ export default class Navbar extends Component{
 }
 
 const NavWrapper = styled.nav `
-background:var(--mainBlue);
+background:transparent;
 .nav-link{
-    color:var(--mainWhite) !important;
+    color:black !important;
     font-size:1.3rem;
     text-transform:capitalize;
 }

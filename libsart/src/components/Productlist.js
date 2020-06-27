@@ -11,7 +11,7 @@ export default class Productlist extends Component {
                 <div className='py-5'>
                     <div className='container'>
 
-                        <Title name='our' title='products'/>
+                        <Title name="liberty's" title='art journey'/>
 
                         <div className='row'>
                             <ProductConsumer>
