@@ -8,7 +8,7 @@ export default class ProductProvider extends Component {
         products:storeProducts,
         detailProduct:detailProduct,
         cart:[],
-        modalOpen: true,
+        modalOpen: false,
         modalProduct: detailProduct,
         cartSubTotal: 0,
         cartTax: 0,
@@ -74,7 +74,9 @@ export default class ProductProvider extends Component {
             <ProductContext.Provider value= {{
                 ...this.state,
                 handleDetail:this.handleDetail,
-                addToCart:this.addToCart
+                addToCart:this.addToCart,
+                openModal: this.openModal,
+                closeModal: this.closeModal
             }}>
                 {this.props.children}
                 
